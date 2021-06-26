@@ -1,0 +1,13 @@
+.container {
+  height: 75vh;
+}
+
+.container h1{
+  text-align: center;
+}
+
+.loginSignUp {
+  cursor: pointer;
+  text-decoration: underline;
+  color: gray;
+}

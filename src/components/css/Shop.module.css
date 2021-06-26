@@ -1,0 +1,48 @@
+.shopHeader {
+  text-align: center;
+  margin: 2rem;
+}
+
+.shopContainer {
+  margin: 1.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card {
+  border-style: none;
+  width: 18rem;
+}
+
+.added {
+  color: green;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.search {
+  margin: 1rem;
+}
+
+.outOfStock {
+  color: lightgray
+}
+
+@media (max-width: 600px) {
+  .shopContainer {
+    flex-direction: column;
+  }
+
+  .filters {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .filterButton {
+    margin-bottom: 10px;
+  }
+}

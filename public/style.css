@@ -1,0 +1,27 @@
+* {
+  font-family: helvetica;
+}
+
+.fa {
+  font-size: 1.5rem;
+}
+
+.fa-shopping-cart {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-chevron-down {
+  font-size: inherit;
+}
+
+.fa-pencil {
+  cursor: pointer;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}

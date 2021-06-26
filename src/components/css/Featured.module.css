@@ -1,0 +1,30 @@
+.borderless {
+  border-style: none;
+}
+
+.featuredHeader {
+  text-align: center;
+  margin: 2rem;
+}
+
+.featuredContainer {
+  margin: 1.5rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  border-style: none;
+  width: 18rem;
+}
+
+.featuredContainer img {
+  height: 100%;
+}
+
+@media (max-width: 600px) {
+  .featuredContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+}

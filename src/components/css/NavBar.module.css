@@ -1,0 +1,49 @@
+.navContainer {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  /* position: sticky;
+  top: 0;
+  z-index: 99998; */
+}
+
+.link {
+  font-size: 1.5rem;
+}
+
+.logo {
+  height: 4rem;
+}
+
+.closeButton {
+  cursor: pointer;
+}
+
+.responsiveNav {
+  border-style: none;
+}
+
+.responsiveNavInside {
+  text-align: center;
+}
+
+.badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 4px;
+  right: 1px;
+  background-color: red;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  color: white;
+  font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+  .badge {
+    top: 5px;
+    right: 120px;
+  }
+}

@@ -1,0 +1,21 @@
+.closeButton {
+  cursor: pointer;
+}
+
+.cart {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cartImg {
+  display: flex;
+  justify-content: center;
+}
+
+.cartImg img {
+  height: 5rem;
+}
+
+.changeQty {
+  border-style: none;
+}

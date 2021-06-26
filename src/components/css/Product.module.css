@@ -1,0 +1,68 @@
+.borderless {
+  border-style: none;
+}
+
+.productHeader {
+  text-align: center;
+  margin: 2rem;
+}
+
+.productContainer {
+  margin: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.productInfo {
+  padding: 1rem;
+  margin: 1.5rem 0 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.productDetails {
+  margin-bottom: 0.5rem;
+}
+
+.sizeAndQty {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 600px) {
+  .productContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+button {
+  width: 150px;
+}
+
+.added {
+  color: green;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.review {
+  border: solid rgba(0,0,0,0.2);
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 10px;
+}
+
+.productReviews {
+  margin: 1rem;
+}
+
+.reviewsHeader {
+  margin: 0 0 0 1rem;
+}

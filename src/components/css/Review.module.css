@@ -1,0 +1,52 @@
+.container {
+    height: 75vh;
+  }
+  
+  .userHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .rowTwo {
+    display: flex;
+    margin-top: 2rem;
+  }
+  
+  .orderHistoryHeader {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .accountDetailsHeader {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .accountDetailsInfo {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  @media (max-width: 600px) {
+    .rowTwo {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .userHeader {
+      margin-bottom: 2rem;
+    }
+  
+    .orderHistoryHeader {
+      margin-bottom: 2rem;
+    }
+  
+    .accountDetailsHeader {
+      margin-bottom: 2rem;
+    }
+  }
+  
